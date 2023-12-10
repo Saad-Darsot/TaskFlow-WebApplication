@@ -1,0 +1,44 @@
+﻿.container-center {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label.label-center {
+    text-align: center;
+}
+
+input.input-center {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button.button-center {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.white-box {
+    background-color: white; /* Set the background color to white */
+    border-radius: 25px;
+    opacity: 0.8;
+    width: 30%; /* Set the width of the container (you can adjust this as needed) */
+    margin: 20px auto; /* Center the container horizontally and add vertical margin */
+    padding: 20px; /* Add some padding inside the container */
+    border: 1px solid #ccc, thick; /* Optional: Add a light border around the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the container */
+}
