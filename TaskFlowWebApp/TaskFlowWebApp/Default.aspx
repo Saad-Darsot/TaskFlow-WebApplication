@@ -16,7 +16,8 @@
                     If you have an account, please click on Log in else sign up.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                    <a class="btn btn-primary" href="LoginPage.aspx">Log In &raquo;</a>
+                    <a class="btn btn-primary" href="Signup.aspx">Sign Up &raquo;</a>
                 </p>
             </section>
           <%-- <section class="col-md-4" aria-labelledby="librariesTitle">
