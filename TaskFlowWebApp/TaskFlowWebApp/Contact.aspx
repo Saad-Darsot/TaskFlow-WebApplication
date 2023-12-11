@@ -2,18 +2,21 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <main aria-labelledby="title">
-        <h2 id="title"><%: Title %>.</h2>
-        <h3>Your contact page.</h3>
+        <%-- %><h2 id="title"><%: Title %>.</h2> --%>
+        <h3><br />Contact Us.</h3>
         <address>
-            One Microsoft Way<br />
-            Redmond, WA 98052-6399<br />
+            <br /><br />123 Sesame Street<br />
+            Cambridge, ON N19 4L9<br />
             <abbr title="Phone">P:</abbr>
-            425.555.0100
+            519-420-0000
         </address>
 
         <address>
-            <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-            <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+            <strong>Support:</strong>   <a href="mailto:Support@TaskFlow.com">Support@TaskFlow.com</a><br />
+            <strong>Marketing:</strong> <a href="mailto:Marketing@TaskFlow.com">Marketing@TaskFlow.com</a>
         </address>
+        <br /><br /><br />
+        Add Stuff Here
+        <br /><br /><br /><br /><br /><br />
     </main>
 </asp:Content>
