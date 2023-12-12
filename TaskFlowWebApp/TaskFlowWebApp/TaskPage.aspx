@@ -2,9 +2,19 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div id="rcorners2">
+
         <div id="rcorners3" style="float:left; display: flex; flex-direction: column; align-items: center;" >
             <div id="profilePic" style="width:100px;height:100px;border-radius:50%;border:1px solid #000; background-color: grey;"></div>
-            <div id="username" style="margin-top:10px;"><asp:Label ID="username" runat="server" Text=""></asp:Label></div>
+            <div id="usernameID" style="margin-top:10px;"><asp:Label ID="username" runat="server" Text=""></asp:Label></div>
+            <div class="parent-container">
+             <div >
+                <button style='font-size:12px; display:inline-block' > <i class='fas fa-sliders-h'> </i>  All Tasks </button>              
+                Important
+                Complete              
+                Incomplete
+                <button style='font-size:24px'>Button <i class='fas fa-sliders-h'></i></button>
+            </div>
+            </div>
         </div>
         <div id="stylebox">
 
