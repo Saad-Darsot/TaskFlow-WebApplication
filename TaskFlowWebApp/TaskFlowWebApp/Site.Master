@@ -59,7 +59,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             
-            <footer style="position:fixed; left:0; bottom:0; width:100%; text-align:center">
+            <footer style="position:page; left:0; bottom:0; width:100%; text-align:center">
                 <hr />
                 <p>&copy; <%: DateTime.Now.Year %> - My TaskFlow - Web Application</p>
             </footer>
