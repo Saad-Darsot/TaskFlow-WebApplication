@@ -21,7 +21,7 @@ namespace TaskFlowWebApp
         {
 
             // ...
-            try 
+            try
             {
                 // Get user input from the form
                 string userEmail = email.Text;
@@ -46,6 +46,7 @@ namespace TaskFlowWebApp
                         if (count > 0)
                         {
                             // User exists, allow login
+                            Session["UserEmail"] = userEmail;
                             Response.Redirect("TaskPage.aspx");
                         }
                         else
@@ -56,11 +57,11 @@ namespace TaskFlowWebApp
                     }
                 }
             }
-            catch (Exception ex) 
-            { 
+            catch (Exception ex)
+            {
                 Response.Write("Error: " + ex.Message);
             }
-            
+
         }
     }
 }
