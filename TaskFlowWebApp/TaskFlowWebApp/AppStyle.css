@@ -72,6 +72,13 @@ button.button-center {
     display: inline-block; /* Added this property */
     margin-left: 5px;
 }
+
+.parent-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* or the height you desire for the container */
+}
 /*#rcorners2 {
     border-radius: 25px;
     border: 2px solid #73AD21;
