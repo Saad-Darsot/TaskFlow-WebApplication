@@ -45,12 +45,12 @@ button.button-center {
 
 #rcorners2 {
     border-radius: 25px;
-    border: 2px solid #73AD21;
+    border: 6px solid #73AD21;
     padding: 20px;
     width: 1970px; /* Adjusted from 'contain' */
-    height: 800px; /* Adjusted from 'contain' */
+    height: 810px; /* Adjusted from 'contain' */
     margin-top:5px;
-    margin-bottom:5px;
+    margin-bottom:1px;
     margin-left:5px;
 }
 
