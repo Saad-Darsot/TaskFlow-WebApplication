@@ -42,3 +42,57 @@ button.button-center {
     border: 1px solid #ccc, thick; /* Optional: Add a light border around the container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the container */
 }
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 1970px; /* Adjusted from 'contain' */
+    height: 800px; /* Adjusted from 'contain' */
+    margin-top:5px;
+    margin-bottom:5px;
+    margin-left:5px;
+}
+
+#rcorners3 {
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 750px;
+    display: inline-block; /* Added this property */
+}
+
+#stylebox {
+    border-radius: 15px / 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 1700px;
+    height: 740px;
+    display: inline-block; /* Added this property */
+    margin-left: 5px;
+}
+/*#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: contain;
+    height: contain;
+}
+
+#rcorners3 {
+    border-radius: 15px 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 750px;
+    
+}
+
+#stylebox {
+    border-radius: 15px / 50px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}*/

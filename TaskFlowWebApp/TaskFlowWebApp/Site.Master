@@ -50,15 +50,17 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/About">About</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link disabled" style="margin-left:20px; color:antiquewhite"> Note: Once you go to any of this page, you will have to log in again.</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <div class="container body-content">
+        <div >
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
+            
+            <footer style="position:fixed; left:0; bottom:0; width:100%; text-align:center">
+                <hr />
                 <p>&copy; <%: DateTime.Now.Year %> - My TaskFlow - Web Application</p>
             </footer>
         </div>
