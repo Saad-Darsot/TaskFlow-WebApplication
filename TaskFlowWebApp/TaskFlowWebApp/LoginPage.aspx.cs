@@ -46,7 +46,7 @@ namespace TaskFlowWebApp
                         if (count > 0)
                         {
                             // User exists, allow login
-                            Response.Redirect("WelcomePage.aspx");
+                            Response.Redirect("TaskPage.aspx");
                         }
                         else
                         {

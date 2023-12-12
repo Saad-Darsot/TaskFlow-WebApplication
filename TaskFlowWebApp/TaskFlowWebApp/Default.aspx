@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <main>
+    <main class="container body-content">
         <section class="row" aria-labelledby="aspnetTitle">
             <h1 id="aspnetTitle">TaskFlow-Web Application</h1>
             <p class="lead">TaskFlow is web based application to manage tasks easily in your daily life.</p>
